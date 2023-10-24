@@ -1,0 +1,50 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  width: 641px;
+}
+
+.logo-container {
+  display: flex; /* Adicione flex para centralizar a logo horizontalmente */
+  align-items: center; /* Adicione align-items para centralizar verticalmente */
+  background-color: #ff6600;
+  padding: 30px;
+  flex-direction: column;
+}
+
+.logo {
+  width: 149px;
+  height: 96px;
+}
+
+.form-container {
+  background-color: #0073e6;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
